@@ -21,7 +21,7 @@ para el correcto funcionamiento del programa se deben importar las siguientes li
   from tkinter import Menu
   
   vista Incial
-  ![](/images/inicio.png)
+  ![](Imagenes/inicio.png)
   
   
   Como la actividad era agregar 3 widgets, se agregaron los siguientes :
