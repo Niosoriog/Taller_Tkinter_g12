@@ -42,7 +42,7 @@ Esta barra es la de color amaarillo que se encuentra rodeada por el circulo rojo
 
   ![click](/Codigo_Fuente/Imagenes/w2.png)
 
-**3)  Menu **
+**3)  Menu**
 
 le daremos al boton que dice "opciones" que se ve rodeado por el circulo rojo.
 
