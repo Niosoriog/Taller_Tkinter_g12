@@ -7,12 +7,19 @@ El programa consiste en una calculadora hecha en una interfaz apollada por la li
 al segundo.
 
 para el correcto funcionamiento del programa se deben importar las siguientes librerias:
+
   import tkinter as tk
+  
   from tkinter import ttk
+  
   from tkinter import messagebox
+  
   from tkinter import *
+  
   from tkinter.ttk import Progressbar
+  
   from tkinter import Menu
+  
 Como la actividad era agregar 3 widgets, se agregaron los siguientes :
   
   1)  menssagebox:
