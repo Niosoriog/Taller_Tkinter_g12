@@ -4,7 +4,7 @@ Taller # 1 : Calculadora
 Estudiante : Nicolás Osorio Guarin
 
 El programa consiste en una calculadora hecha en una interfaz apollada por la libreria Tkinter la cual posee las operaciones basicas como : +, - , * , / y elevar el primer numero
-al segundo.
+al segundo.  
 
 para el correcto funcionamiento del programa se deben importar las siguientes librerias:
 
@@ -20,9 +20,13 @@ para el correcto funcionamiento del programa se deben importar las siguientes li
   
   from tkinter import Menu
   
-Como la actividad era agregar 3 widgets, se agregaron los siguientes :
+  vista Incial
+  ![](images/inicio.png)
+  
+  
+  Como la actividad era agregar 3 widgets, se agregaron los siguientes :
   
   1)  menssagebox
      -le daremos click encima de este boton:
-     ![](imagenes/w1_1.png)
+
   
