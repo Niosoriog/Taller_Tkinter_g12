@@ -1,7 +1,7 @@
 import tkinter as tk
 from tkinter import ttk
 from tkinter import messagebox
-from tkinter import *
+from tkinter import Button
 from tkinter.ttk import Progressbar
 from tkinter import Menu
 
@@ -110,10 +110,7 @@ def click_calcular(label, n1, n2, operador):
 
     # actualizar el texto de la etiqueta
     label.configure(text="Resultado : "+str(res))
-
-
+    
 def main():
     init_window()
-
-
 main()
