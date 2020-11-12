@@ -22,7 +22,7 @@ para el correcto funcionamiento del programa se deben importar las siguientes li
   
   vista Inicial
   
-  ![vista principal de la calculadora](/Codigo_Fuente/Imagenes/w1_1.png)
+  ![vista principal de la calculadora](/Codigo_Fuente/Imagenes/inicio.PNG)
   
   
   Como la actividad era agregar 3 widgets, se agregaron los siguientes :
