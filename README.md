@@ -5,10 +5,12 @@ Estudiante : Nicolás Osorio Guarin
 
 Vista de como se ve la aplicacion:
 
-![vista principal de la calculadora](/Codigo_Fuente/Imagenes/inicio.PNG)
+![vista principal de la calculadora](/Codigo_Fuente/Imagenes/inicio_1.PNG)
 
 El programa consiste en una calculadora hecha en una interfaz apollada por la libreria Tkinter la cual posee las operaciones basicas como : +, - , * , / y elevar el primer numero
 al segundo.  
+  
+  ![vista principal de la calculadora](/Codigo_Fuente/Imagenes/inicio.PNG)
 
 para el correcto funcionamiento del programa se deben importar las siguientes librerias:
 
