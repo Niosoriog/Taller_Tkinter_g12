@@ -14,7 +14,8 @@ def init_window():
     # creacion de una etiqueta
     label = tk.Label(windows, text="Calculadora 2.0", font=("arial bold", 15))
     # ubicacion de la etiqueta en una columna
-    label.grid(column=0, row=0)
+    label.grid(column=1, row=0)
+    label.configure(bg="yellow")
     # agregar dos campos de texto
     n1 = tk.Entry(windows, width=10)
     n2 = tk.Entry(windows, width=10)
@@ -24,15 +25,18 @@ def init_window():
     label_n1 = tk.Label(
         windows, text="Ingrese el primer numero", font=("arial bold", 10))
     label_n1.grid(column=0, row=1)
+    label_n1.configure(bg ="yellow")
     label_n2 = tk.Label(
         windows, text="Ingrese el segundo numero", font=("arial bold", 10))
     label_n2.grid(column=0, row=2)
+    label_n2.configure(bg ="yellow")
 
     # agregar un seleccionador o combobox
     # 1) crearemos la etiqueta para este
     label_operador = tk.Label(
         windows, text="elija una operacion", font=("arial bond", 10))
     label_operador.grid(column=0, row=3)
+    label_operador.configure(bg ="yellow")
     # 2) crear el seleccionador
     combo_operadores = ttk.Combobox(windows)
     # 3) asignaremos los valores dele seleccionador
@@ -47,10 +51,11 @@ def init_window():
     label_resultado = tk.Label(
         windows, text='Resultado:', font=("arial bond", 15))
     label_resultado.grid(column=0, row=5)
+    label_resultado.configure(bg = "white")
     # y luego de crear las funciones proseguimos a la ceacion del boton
     # boton calcular
     boton = tk.Button(windows, command=lambda: click_calcular(label_resultado, n1.get(), n2.get(), combo_operadores.get()),
-                      text="calcular", bg="blue", fg="white")
+                      text="calcular", bg="orange", fg="white")
     boton.grid(column=1, row=4)
     # primer widgets menssagebox
 
@@ -71,7 +76,8 @@ def init_window():
     new_item.add_command(label='Proximamente')
     menu.add_cascade(label='opciones', menu=new_item)
     windows.config(menu=menu)
-
+    # 4 cambiar color de fondo
+    windows.configure(bg = "blue")
     windows.mainloop()
 
 
