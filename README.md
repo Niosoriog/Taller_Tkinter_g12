@@ -21,7 +21,7 @@ para el correcto funcionamiento del programa se deben importar las siguientes li
   from tkinter import Menu
   
   vista Incial
-  ![vista principal de la calculadora](/Codigo_Fuente/Imagenes/inicio.png)
+  ![vista principal de la calculadora](/Codigo\_Fuente/Imagenes/inicio.png)
   
   
   Como la actividad era agregar 3 widgets, se agregaron los siguientes :
