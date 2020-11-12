@@ -1,5 +1,6 @@
 # Taller_Tkinter_g12
 Taller # 1 : Calculadora 
+
 Estudiante : Nicolás Osorio Guarin
 
 El programa consiste en una calculadora hecha en una interfaz apollada por la libreria Tkinter la cual posee las operaciones basicas como : +, - , * , / y elevar el primer numero
