@@ -26,7 +26,7 @@ para el correcto funcionamiento del programa se deben importar las siguientes li
   
   Como la actividad era agregar 3 widgets, se agregaron los siguientes :
   
-1)  messagebox
+**1)  Messagebox**
 le daremos click encima del boton redondeado por el circulo rojo:
 
   ![click](/Codigo_Fuente/Imagenes/w1_1.png)
@@ -34,3 +34,9 @@ le daremos click encima del boton redondeado por el circulo rojo:
 Se deplegara nuestro messagebox, como se muestra en esta imagen:
 
   ![click](/Codigo_Fuente/Imagenes/w1_2.PNG)
+  
+**2)  Progress Bar**
+
+Esta barra es la de color amaarillo que se encuentra rodeada por el circulo rojo:
+
+  ![click](/Codigo_Fuente/Imagenes/w2.png)
