@@ -27,8 +27,7 @@ para el correcto funcionamiento del programa se deben importar las siguientes li
   Como la actividad era agregar 3 widgets, se agregaron los siguientes :
   
   1)  menssagebox
-     -le daremos click encima de este boton:
-     
-     ![click](/Codigo_Fuente/Imagenes/w1_1.png)
+     le daremos click encima de este boton:
+![click](/Codigo_Fuente/Imagenes/w1_1.png)
 
   
