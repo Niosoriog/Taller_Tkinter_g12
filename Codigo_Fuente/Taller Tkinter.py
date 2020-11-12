@@ -66,7 +66,7 @@ def init_window():
     # segundo widget progress bar
     style = ttk.Style()
     style.theme_use("default")
-    style.configure("red.Horizontal.TProgressbar", background=("red"))
+    style.configure("red.Horizontal.TProgressbar", background=("yellow"))
     bar = Progressbar(windows, length=200,style="red.Horizontal.TProgressbar")
     bar['value'] = 90
     bar.grid(column=1, row=12)
@@ -110,7 +110,7 @@ def click_calcular(label, n1, n2, operador):
 
     # actualizar el texto de la etiqueta
     label.configure(text="Resultado : "+str(res))
-    
+
 def main():
     init_window()
 main()
