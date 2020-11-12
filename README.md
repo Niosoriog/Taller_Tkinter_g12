@@ -28,5 +28,6 @@ para el correcto funcionamiento del programa se deben importar las siguientes li
   
   1)  menssagebox
      -le daremos click encima de este boton:
+     ![click](/Codigo_Fuente/Imagenes/w1_1.png)
 
   
