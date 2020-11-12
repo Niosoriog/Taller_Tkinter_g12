@@ -3,6 +3,10 @@ Taller # 1 : Calculadora
 
 Estudiante : Nicolás Osorio Guarin
 
+Vista de como se ve la aplicacion:
+
+![vista principal de la calculadora](/Codigo_Fuente/Imagenes/inicio.PNG)
+
 El programa consiste en una calculadora hecha en una interfaz apollada por la libreria Tkinter la cual posee las operaciones basicas como : +, - , * , / y elevar el primer numero
 al segundo.  
 
@@ -19,11 +23,6 @@ para el correcto funcionamiento del programa se deben importar las siguientes li
   from tkinter.ttk import Progressbar
   
   from tkinter import Menu
-  
-  vista Inicial
-  
-  ![vista principal de la calculadora](/Codigo_Fuente/Imagenes/inicio.PNG)
-  
   
   Como la actividad era agregar 3 widgets, se agregaron los siguientes :
   
