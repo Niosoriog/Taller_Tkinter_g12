@@ -10,7 +10,7 @@ def init_window():
     windows = tk.Tk()
     windows.title("Calculadora NOG G12")  # titulo de la pantalla
     windows.geometry('500x300')  # tamaño de la ventana
-    
+    windows.configure(bg = "blue")
     # creacion de una etiqueta
     label = tk.Label(windows, text="Calculadora 2.0", font=("arial bold", 15))
     # ubicacion de la etiqueta en una columna
@@ -57,12 +57,13 @@ def init_window():
     boton = tk.Button(windows, command=lambda: click_calcular(label_resultado, n1.get(), n2.get(), combo_operadores.get()),
                       text="calcular", bg="orange", fg="white")
     boton.grid(column=1, row=4)
-    # primer widgets menssagebox
+    # primer widgets messagebox
 
     def click():
         messagebox.showinfo("hola", "Todo va a estar bien , sonrie :)")
     btn = Button(windows, text="¿estas triste?, clickea aca", command=click)
     btn.grid(column=1, row=15)
+    
     # segundo widget progress bar
     style = ttk.Style()
     style.theme_use("default")
@@ -73,11 +74,14 @@ def init_window():
     # tercer widget menu
     menu = Menu(windows)
     new_item = Menu(menu)
+    new_item.add_command(label='Normal')
+    new_item.add_separator()
+    new_item.add_command(label='Cientifica')
+    new_item.add_separator()
     new_item.add_command(label='Proximamente')
     menu.add_cascade(label='opciones', menu=new_item)
     windows.config(menu=menu)
-    # 4 cambiar color de fondo
-    windows.configure(bg = "blue")
+    
     windows.mainloop()
 
 
