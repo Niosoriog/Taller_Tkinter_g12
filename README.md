@@ -7,8 +7,7 @@ Vista de como se ve la aplicacion:
 
 ![vista principal de la calculadora](/Codigo_Fuente/Imagenes/inicio_1.PNG)
 
-El programa consiste en una calculadora hecha en una interfaz apollada por la libreria Tkinter la cual posee las operaciones basicas como : +, - , * , / y elevar el primer numero
-al segundo.  
+El programa consiste en una calculadora hecha en una interfaz apollada por la libreria Tkinter la cual posee las operaciones basicas como : +, - , * , / y elevar el primer numero al segundo. estas operaciones se pueden seleccionar como se ve en la siguiente imagen:
   
   ![vista principal de la calculadora](/Codigo_Fuente/Imagenes/w0.PNG)
 
